@@ -55,9 +55,11 @@ st.markdown(
 plt.style.use("seaborn-v0_8-darkgrid")
 sns.set_theme(style="darkgrid")
 
-# I am defining the relative path to my data so the app works on any machine
-DATA_DIR = Path("../data")   # because app.py is inside /notebooks
+# I am building the data path from the location of this file so it works locally and on Streamlit Cloud
+BASE_DIR = Path(__file__).resolve().parent          # .../notebooks
+DATA_DIR = BASE_DIR.parent / "data"                 # .../data
 CSV_PATH = DATA_DIR / "bitcoin_price_training.csv"
+
 
 
 @st.cache_data
