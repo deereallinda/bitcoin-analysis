@@ -1,6 +1,6 @@
 #  Bitcoin Price Analysis (2013–2017)
 
-**By Linda Mthembu — Junior Data Analyst | Python • Power BI • SQL | Aspiring Data Engineer**  
+**By Linda Mthembu - Junior Data Analyst | Python • Power BI • SQL | Aspiring Data Engineer**  
 
 A full exploratory data analysis (EDA) of Bitcoin historical price data from **April 2013 to July 2017**.
 
